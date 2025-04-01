@@ -26,7 +26,7 @@
           </div>
         </router-link>
         <button @click.stop="removeFromPokedex(pokemon)" class="remove-button">
-          Remove from Pokédex
+          Remove from Pokedex
         </button>
       </div>
     </div>
