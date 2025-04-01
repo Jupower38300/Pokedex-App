@@ -117,10 +117,10 @@ function getTextColor(backgroundColor: string): string {
           </span>
         </div>
         <button v-if="!isInPersonalList(pokemon)" @click="addToPoke(pokemon)">
-          Add to Pokédex
+          Add to Pokedex
         </button>
         <button v-else @click="removeFromPoke(pokemon)" class="remove-button">
-          Remove from Pokédex
+          Remove from Pokedex
         </button>
       </div>
     </div>
